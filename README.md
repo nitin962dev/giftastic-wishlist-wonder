@@ -132,7 +132,7 @@ apt update -y
 apt install -y curl git
 
 echo "Running deployment script from GitHub..."
-bash curl -s https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
+curl -fsSL https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
 ```
 
 ### 🔧 Manual Deployment Steps
@@ -151,7 +151,7 @@ If you are accessing an existing server and need to trigger the deployment proce
 
 * **Execute the automated deployment script**
   ```bash
-  curl -s https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
+  curl -fsSL https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
   ```
 
 * **View running containers**
