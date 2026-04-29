@@ -80,7 +80,7 @@ Follow these instructions to set up the frontend project locally for development
 
 * **Clone the repository**
   ```bash
-  git clone [https://github.com/Nitin962dev/giftastic-wishlist-wonder.git](https://github.com/Nitin962dev/giftastic-wishlist-wonder.git)
+  git clone https://github.com/Nitin962dev/giftastic-wishlist-wonder.git
   ```
 
 * **Navigate to the project directory**
@@ -132,7 +132,7 @@ apt update -y
 apt install -y curl git
 
 echo "Running deployment script from GitHub..."
-bash <(curl -s [https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh](https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh))
+bash curl -s https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
 ```
 
 ### 🔧 Manual Deployment Steps
@@ -151,7 +151,7 @@ If you are accessing an existing server and need to trigger the deployment proce
 
 * **Execute the automated deployment script**
   ```bash
-  bash <(curl -s [https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh](https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh))
+  curl -s https://raw.githubusercontent.com/Nitin962dev/giftastic-wishlist-wonder/main/Automatic-deploy-gift-ai-linux.sh
   ```
 
 * **View running containers**
